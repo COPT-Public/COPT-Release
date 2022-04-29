@@ -4,10 +4,12 @@ COPT (Cardinal Optimizer) is a mathematical optimization solver for large-scale 
 It includes high-performance solvers for LP, MIP, SOCP, convex QP and convex QCP.
 
 The optimizer supports all major operating systems (64-bit), including Windows, Linux, and MacOS.
-It provides interfaces to [Julia](https://github.com/COPT-Public/COPT.jl), Python, PuLP, Pyomo, C, C++, C#, Java, AMPL, GAMS and CVXPY.
+It provides interfaces to [Julia](https://github.com/COPT-Public/COPT.jl), Python, PuLP, Pyomo, Fortran, C, C++, C#, Java, AMPL, GAMS and CVXPY.
 
 If you don't have a valid COPT 4.0 license yet,
 please apply for free personal license from [COPT application page](https://www.shanshu.ai/copt).
+
+Full COPT documentation is available [here](https://guide.coap.online/copt/en-doc/index.html).
 
 ## Download links
 
