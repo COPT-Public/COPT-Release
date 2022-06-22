@@ -21,7 +21,7 @@ Download links for supported platforms are:
 **Windows**<br>
   We recommend
   the [Installer](https://pub.shanshu.ai/download/copt/4.0.7/win64/CardinalOptimizer-4.0.7-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/4.07/win64/CardinalOptimizer-4.0.7-win64.zip) too.
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/4.0.7/win64/CardinalOptimizer-4.0.7-win64.zip) too.
 
 **MacOS (Intel)**<br>
   We recommend
