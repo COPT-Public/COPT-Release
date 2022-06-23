@@ -11,6 +11,23 @@ please apply for free personal license from [COPT application page](https://www.
 
 Full COPT documentation is available [here](https://guide.coap.online/copt/en-doc/index.html).
 
+## Reference
+If you used COPT in your research work, please mention us in your publication. For example:
+  - We used COPT [1] in our project.
+  - To solve the integer problem, we used Cardinal Optimizer [1].
+
+with the following entry in the Reference section:<br>
+[1] D. Ge, Q. Huangfu, Z. Wang, and J. Wu. Cardinal Optimizer (COPT) user guide. https://guide.coap.online/copt/en-doc, 2022.
+
+The corresponding BiBTeX citation is:
+```
+@misc{copt,
+  author={Dongdong Ge and Qi Huangfu and Zizhuo Wang and Jian Wu},
+  title={Cardinal {O}ptimizer {(COPT)} user guide},
+  howpublished={https://guide.coap.online/copt/en-doc},
+  year=2022
+}
+```
 ## Download links
 
 The latest COPT 5.0 patch release is COPT 5.0.1.
