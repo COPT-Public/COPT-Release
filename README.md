@@ -17,12 +17,12 @@ If you used COPT in your research work, please mention us in your publication. F
   - To solve the integer problem, we used Cardinal Optimizer [1].
 
 with the following entry in the Reference section:<br>
-[1] D. Ge, Q. Huangfu, Z. Wang, and J. Wu. Cardinal Optimizer (COPT) user guide. https://guide.coap.online/copt/en-doc, 2022.
+[1] D. Ge, Q. Huangfu, Z. Wang, J. Wu. and Y. Ye. Cardinal Optimizer (COPT) user guide. https://guide.coap.online/copt/en-doc, 2022.
 
 The corresponding BiBTeX citation is:
 ```
 @misc{copt,
-  author={Dongdong Ge and Qi Huangfu and Zizhuo Wang and Jian Wu},
+  author={Dongdong Ge and Qi Huangfu and Zizhuo Wang and Jian Wu and Yinyu Ye},
   title={Cardinal {O}ptimizer {(COPT)} user guide},
   howpublished={https://guide.coap.online/copt/en-doc},
   year=2022
@@ -30,35 +30,44 @@ The corresponding BiBTeX citation is:
 ```
 ## Download links
 
-The latest COPT 5.0 patch release is COPT 5.0.1.
+The latest COPT 5.0 patch release is COPT 5.0.2.
 You can use it with any valid COPT 5.0 license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.1/win64/CardinalOptimizer-5.0.1-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/5.0.1/win64/CardinalOptimizer-5.0.1-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.2/win64/CardinalOptimizer-5.0.2-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/5.0.2/win64/CardinalOptimizer-5.0.2-win64.zip) too.
 
 **MacOS (Intel)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.1/osx64/CardinalOptimizer-5.0.1-osx64.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.1/osx64/CardinalOptimizer-5.0.1-osx64.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.2/osx64/CardinalOptimizer-5.0.2-osx64.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/osx64/CardinalOptimizer-5.0.2-osx64.tar.gz) too.
 
 **MacOS (Apple M1)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.1/aarch64/CardinalOptimizer-5.0.1-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.1/aarch64/CardinalOptimizer-5.0.1-aarch64_mac.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.2/aarch64/CardinalOptimizer-5.0.2-aarch64_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/aarch64/CardinalOptimizer-5.0.2-aarch64_mac.tar.gz) too.
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.1/linux64/CardinalOptimizer-5.0.1-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/linux64/CardinalOptimizer-5.0.2-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.1/aarch64/CardinalOptimizer-5.0.1-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/aarch64/CardinalOptimizer-5.0.2-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 5.0.2
+==========
+Added support of extending partial MIP start solutions.
+Added support of retrieving dual Farkas and primal rays.
+Improved SDP symmetric matrix modeling for C++, C#, Java and Python.
+Fixed a floating licensing issue regarding daylight saving time.
+Fixed other issues and bugs.
+Revised documentations.
+
 COPT 5.0.1
 ==========
 Fixed issues regarding SDP solver.
