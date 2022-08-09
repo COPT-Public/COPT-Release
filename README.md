@@ -30,35 +30,45 @@ The corresponding BiBTeX citation is:
 ```
 ## Download links
 
-The latest COPT 5.0 patch release is COPT 5.0.2.
+The latest COPT 5.0 patch release is COPT 5.0.3.
 You can use it with any valid COPT 5.0 license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.2/win64/CardinalOptimizer-5.0.2-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/5.0.2/win64/CardinalOptimizer-5.0.2-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.3/win64/CardinalOptimizer-5.0.3-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/5.0.3/win64/CardinalOptimizer-5.0.3-win64.zip) too.
 
 **MacOS (Intel)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.2/osx64/CardinalOptimizer-5.0.2-osx64.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/osx64/CardinalOptimizer-5.0.2-osx64.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.3/osx64/CardinalOptimizer-5.0.3-osx64.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.3/osx64/CardinalOptimizer-5.0.3-osx64.tar.gz) too.
 
 **MacOS (Apple M1)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.2/aarch64/CardinalOptimizer-5.0.2-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/aarch64/CardinalOptimizer-5.0.2-aarch64_mac.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.3/aarch64/CardinalOptimizer-5.0.3-aarch64_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.3/aarch64/CardinalOptimizer-5.0.3-aarch64_mac.tar.gz) too.
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/linux64/CardinalOptimizer-5.0.2-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.3/linux64/CardinalOptimizer-5.0.3-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.2/aarch64/CardinalOptimizer-5.0.2-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.3/aarch64/CardinalOptimizer-5.0.3-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 5.0.3
+==========
+Fixed CPU architecture detection on Windows.
+Fixed a python compatibility issue regarding COPT upgrade.
+Fixed a python logging issue regarding Jupyter etc.
+Fixed a variable index issue regarding nested generators in Python.
+Fixed an LP initialization issue in 1 physical thread environment.
+Fixed an issue regarding fractional MIP start solutions.
+Fixed an issue in MIP presolver.
+
 COPT 5.0.2
 ==========
 Added support of extending partial MIP start solutions.
