@@ -30,35 +30,50 @@ The corresponding BiBTeX citation is:
 ```
 ## Download links
 
-The latest COPT 5.0 patch release is COPT 5.0.4.
+The latest COPT 5.0 patch release is COPT 5.0.5.
 You can use it with any valid COPT 5.0 license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.4/win64/CardinalOptimizer-5.0.4-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/5.0.4/win64/CardinalOptimizer-5.0.4-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.5/win64/CardinalOptimizer-5.0.5-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/5.0.5/win64/CardinalOptimizer-5.0.5-win64.zip) too.
 
 **MacOS (Intel)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.4/osx64/CardinalOptimizer-5.0.4-osx64.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.4/osx64/CardinalOptimizer-5.0.4-osx64.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.5/osx64/CardinalOptimizer-5.0.5-osx64.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.5/osx64/CardinalOptimizer-5.0.5-osx64.tar.gz) too.
 
 **MacOS (Apple M1)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/5.0.4/aarch64/CardinalOptimizer-5.0.4-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.4/aarch64/CardinalOptimizer-5.0.4-aarch64_mac.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/5.0.5/aarch64/CardinalOptimizer-5.0.5-aarch64_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.5/aarch64/CardinalOptimizer-5.0.5-aarch64_mac.tar.gz) too.
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.4/linux64/CardinalOptimizer-5.0.4-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.5/linux64/CardinalOptimizer-5.0.5-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.4/aarch64/CardinalOptimizer-5.0.4-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/5.0.5/aarch64/CardinalOptimizer-5.0.5-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 5.0.5
+==========
+Updated EULA files.
+Added support for retrieving FeasRelax solutions.
+Added parameter AbsGap for setting absolute MIP gap.
+Added priority support for compute cluster.
+Added support to MPS and LP files with undefined names.
+Fixed an issue regarding indicator with self-references.
+Fixed an issue regarding writing IIS with indicators.
+Fixed an issue regarding setting IntTol below FeasTol.
+Fixed an issue regarding QCP reformulation.
+Fixed an edge issue where MIP objective are not always returned.
+Fixed a potential issue regarding compute cluster data transmission.
+Fixed other bugs and issues.
+
 COPT 5.0.4
 ==========
 The parameter Presolve can now be set to 0-3 to set MIP presolve effort.
