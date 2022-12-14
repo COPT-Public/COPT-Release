@@ -4,7 +4,7 @@ COPT (Cardinal Optimizer) is a mathematical optimization solver for large-scale 
 It includes high-performance solvers for LP, MIP, SDP, (MI)SOCP, convex (MI)QP and convex (MI)QCP.
 
 The optimizer supports all major operating systems (64-bit), including Windows, Linux, and MacOS.
-It provides interfaces to [Julia](https://github.com/COPT-Public/COPT.jl), Python, PuLP, Pyomo, Fortran, C, C++, C#, Java, AMPL, GAMS and CVXPY.
+It provides interfaces to [Julia](https://github.com/COPT-Public/COPT.jl), Python, PuLP, Pyomo, Fortran, C, C++, C#, Java, AIMMS, AMPL, GAMS and CVXPY.
 
 If you don't have a valid COPT 6.0 license yet,
 please apply for free personal license from [COPT application page](https://www.shanshu.ai/copt).
@@ -30,35 +30,52 @@ The corresponding BiBTeX citation is:
 ```
 ## Download links
 
-The latest COPT 6.0 patch release is COPT 6.0.1.
+The latest COPT 6.0 patch release is COPT 6.0.3.
 You can use it with any valid COPT 6.0 license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.0.1/win64/CardinalOptimizer-6.0.1-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.0.1/win64/CardinalOptimizer-6.0.1-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.0.3/win64/CardinalOptimizer-6.0.3-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.0.3/win64/CardinalOptimizer-6.0.3-win64.zip) too.
 
 **MacOS (Intel)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.0.1/osx64/CardinalOptimizer-6.0.1-osx64.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.1/osx64/CardinalOptimizer-6.0.1-osx64.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.0.3/osx64/CardinalOptimizer-6.0.3-osx64.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/osx64/CardinalOptimizer-6.0.3-osx64.tar.gz) too.
 
 **MacOS (Apple M1)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.0.1/aarch64/CardinalOptimizer-6.0.1-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.1/aarch64/CardinalOptimizer-6.0.1-aarch64_mac.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.0.3/aarch64/CardinalOptimizer-6.0.3-aarch64_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/aarch64/CardinalOptimizer-6.0.3-aarch64_mac.tar.gz) too.
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.1/linux64/CardinalOptimizer-6.0.1-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/linux64/CardinalOptimizer-6.0.3-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.1/aarch64/CardinalOptimizer-6.0.1-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/aarch64/CardinalOptimizer-6.0.3-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 6.0.3
+==========
+Introduced LPMETHOD=5 which chooses the best LP solver automatically
+Improved performance and stability of barrier LP solver
+Improved the LP presolver
+Fixed bugs in LP presolver
+Fixed a performance issue of MIP solver
+
+COPT 6.0.2
+==========
+Improved the LP presolver
+Revised tuner behavior when the baseline MIP gap is infinite
+Added support to Python 3.11
+Added support to coptpy-stubs
+Fixed issues in SDP solvers
+Fixed other bugs and issues
+
 COPT 6.0.1
 ==========
 Improved performance of MISOCP solver
@@ -77,6 +94,7 @@ Major components introduced in COPT 6.0
 COPT MISOCP solver
 COPT convex MIQP solver
 COPT convex MIQCP solver
+COPT Tuner
 
 Major components introduced in previous releases
 Parallelized optimization solvers:
@@ -90,7 +108,6 @@ COPT SDP solver
 Utilities:
 COPT IIS for infeasible problems
 COPT Feas-Relax utility
-COPT Tuner
 
 Modeling interfaces:
 Object-oriented: Python, C++, C#, Java
