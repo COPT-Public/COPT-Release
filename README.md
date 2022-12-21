@@ -30,35 +30,41 @@ The corresponding BiBTeX citation is:
 ```
 ## Download links
 
-The latest COPT 6.0 patch release is COPT 6.0.3.
+The latest COPT 6.0 patch release is COPT 6.0.4.
 You can use it with any valid COPT 6.0 license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.0.3/win64/CardinalOptimizer-6.0.3-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.0.3/win64/CardinalOptimizer-6.0.3-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.0.4/win64/CardinalOptimizer-6.0.4-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.0.4/win64/CardinalOptimizer-6.0.4-win64.zip) too.
 
 **MacOS (Intel)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.0.3/osx64/CardinalOptimizer-6.0.3-osx64.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/osx64/CardinalOptimizer-6.0.3-osx64.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.0.4/osx64/CardinalOptimizer-6.0.4-osx64.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.4/osx64/CardinalOptimizer-6.0.4-osx64.tar.gz) too.
 
 **MacOS (Apple M1)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.0.3/aarch64/CardinalOptimizer-6.0.3-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/aarch64/CardinalOptimizer-6.0.3-aarch64_mac.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.0.4/aarch64/CardinalOptimizer-6.0.4-aarch64_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.4/aarch64/CardinalOptimizer-6.0.4-aarch64_mac.tar.gz) too.
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/linux64/CardinalOptimizer-6.0.3-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.4/linux64/CardinalOptimizer-6.0.4-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.3/aarch64/CardinalOptimizer-6.0.3-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.0.4/aarch64/CardinalOptimizer-6.0.4-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 6.0.4
+==========
+Added Python matrix modeling method (requires Python 3.8 or above)
+Added documentations and examples regarding Python matrix modeling
+Fixed an issue regarding postsolve when an LP is presolved to empty
+
 COPT 6.0.3
 ==========
 Introduced LPMETHOD=5 which chooses the best LP solver automatically
