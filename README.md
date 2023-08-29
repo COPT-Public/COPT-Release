@@ -40,15 +40,15 @@ Download links for supported platforms are:
   the [Installer](https://pub.shanshu.ai/download/copt/6.5.9/win64/CardinalOptimizer-6.5.9-win64-installer.zip),
   but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.5.9/win64/CardinalOptimizer-6.5.9-win64.zip) too.
 
+**MacOS (Apple Silicon)**<br>
+  We recommend
+  the [Installer](https://pub.shanshu.ai/download/copt/6.5.9/aarch64/CardinalOptimizer-6.5.9-aarch64_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.9/aarch64/CardinalOptimizer-6.5.9-aarch64_mac.tar.gz) too.
+  
 **MacOS (Intel)**<br>
   We recommend
   the [Installer](https://pub.shanshu.ai/download/copt/6.5.9/osx64/CardinalOptimizer-6.5.9-osx64.dmg),
   but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.9/osx64/CardinalOptimizer-6.5.9-osx64.tar.gz) too.
-
-**MacOS (Apple M1)**<br>
-  We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.5.9/aarch64/CardinalOptimizer-6.5.9-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.9/aarch64/CardinalOptimizer-6.5.9-aarch64_mac.tar.gz) too.
 
 **Linux**<br>
   Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.9/linux64/CardinalOptimizer-6.5.9-lnx64.tar.gz)
