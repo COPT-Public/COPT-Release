@@ -30,35 +30,39 @@ The corresponding BiBTeX citation is:
 ```
 ## Download links
 
-The latest COPT 6.5 patch release is COPT 6.5.11.
+The latest COPT 6.5 patch release is COPT 6.5.12.
 You can use it with any valid COPT 6.5 license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.5.11/win64/CardinalOptimizer-6.5.11-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.5.11/win64/CardinalOptimizer-6.5.11-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.5.12/win64/CardinalOptimizer-6.5.12-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/6.5.12/win64/CardinalOptimizer-6.5.12-win64.zip) too.
 
-**MacOS (Apple Silicon)**<br>
+**MacOS**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.5.11/aarch64/CardinalOptimizer-6.5.11-aarch64_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.11/aarch64/CardinalOptimizer-6.5.11-aarch64_mac.tar.gz) too.
-  
-**MacOS (Intel)**<br>
-  We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/6.5.11/osx64/CardinalOptimizer-6.5.11-osx64.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.11/osx64/CardinalOptimizer-6.5.11-osx64.tar.gz) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/6.5.12/osx64/CardinalOptimizer-6.5.12-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.12/osx64/CardinalOptimizer-6.5.12-universal_mac.tar.gz) too.
+
+  **Please note that we replaced x86_64 and arm64 packages by the universal package for macOS as of 6.5.12.**
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.11/linux64/CardinalOptimizer-6.5.11-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.12/linux64/CardinalOptimizer-6.5.12-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.11/aarch64/CardinalOptimizer-6.5.11-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/6.5.12/aarch64/CardinalOptimizer-6.5.12-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 6.5.12
+===========
+Replaced x86_64 and arm64 packages by a universal package for macOS.
+Updated documentations accordingly.
+Fixed a compatible issue in LP reader.
+Fixed other issues and bugs.
+
 COPT 6.5.11
 ===========
 Fixed an issue regarding web-license SSL certificate.
