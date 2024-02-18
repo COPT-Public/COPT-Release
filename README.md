@@ -1,4 +1,4 @@
-# COPT 7.0
+# COPT 7.1
 
 COPT (Cardinal Optimizer) is a mathematical optimization solver for large-scale optimization problems.
 It includes high-performance solvers for LP, MIP, SDP, (MI)SOCP, convex (MI)QP and convex (MI)QCP.
