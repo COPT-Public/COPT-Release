@@ -30,31 +30,42 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.1 patch release is COPT 7.1.5.
+The latest COPT 7.1 patch release is COPT 7.1.6.
 You can use it with any valid COPT 7.1 (or 7.0) license.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.1.5/win64/CardinalOptimizer-7.1.5-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.1.5/win64/CardinalOptimizer-7.1.5-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.1.6/win64/CardinalOptimizer-7.1.6-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.1.6/win64/CardinalOptimizer-7.1.6-win64.zip) too.
 
 **MacOS**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.1.5/osx64/CardinalOptimizer-7.1.5-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.1.5/osx64/CardinalOptimizer-7.1.5-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.1.6/osx64/CardinalOptimizer-7.1.6-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.1.6/osx64/CardinalOptimizer-7.1.6-universal_mac.tar.gz) too.<br>
   **Please note that we replaced x86_64 and arm64 packages by the universal package for macOS.**
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.1.5/linux64/CardinalOptimizer-7.1.5-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.1.6/linux64/CardinalOptimizer-7.1.6-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.1.5/aarch64/CardinalOptimizer-7.1.5-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.1.6/aarch64/CardinalOptimizer-7.1.6-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.1.6
+==========
+Added the support for more general indicators: Only IF and IFF.
+Added the support for GPU-accelerated PDLP on arm64.
+Fixed an issue in CBF writer.
+Fixed an issue in MIP solver.
+Fixed an issue in COPT mac address tool.
+Fixed an issue regarding COPT compute cluster.
+Improved performance of the experimental Python matrix modeling.
+Updated Chinese and English documentations accordingly.
+
 COPT 7.1.5
 ==========
 Fixed an issue in MIP presolver.
