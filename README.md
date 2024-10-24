@@ -30,29 +30,36 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.1.
+The latest COPT 7.2 patch release is COPT 7.2.2.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.1/win64/CardinalOptimizer-7.2.1-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.1/win64/CardinalOptimizer-7.2.1-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.2/win64/CardinalOptimizer-7.2.2-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.2/win64/CardinalOptimizer-7.2.2-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.1/osx64/CardinalOptimizer-7.2.1-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.1/osx64/CardinalOptimizer-7.2.1-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.2/osx64/CardinalOptimizer-7.2.2-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.2/osx64/CardinalOptimizer-7.2.2-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.1/linux64/CardinalOptimizer-7.2.1-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.2/linux64/CardinalOptimizer-7.2.2-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.1/aarch64/CardinalOptimizer-7.2.1-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.2/aarch64/CardinalOptimizer-7.2.2-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.2
+==========
+Fixed an issue regarding MIP cuts performance.
+Fixed an issue regarding QCQP without linear constraints.
+Fixed an issue regarding using Feas-Relax in Python.
+Removed Python API VC++ runtime dependency on Windows.
+
 COPT 7.2.1
 ==========
 Improved MIP presolver.
