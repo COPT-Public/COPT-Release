@@ -30,29 +30,34 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.2.
+The latest COPT 7.2 patch release is COPT 7.2.3.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.2/win64/CardinalOptimizer-7.2.2-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.2/win64/CardinalOptimizer-7.2.2-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.3/win64/CardinalOptimizer-7.2.3-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.3/win64/CardinalOptimizer-7.2.3-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.2/osx64/CardinalOptimizer-7.2.2-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.2/osx64/CardinalOptimizer-7.2.2-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.3/osx64/CardinalOptimizer-7.2.3-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.3/osx64/CardinalOptimizer-7.2.3-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.2/linux64/CardinalOptimizer-7.2.2-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.3/linux64/CardinalOptimizer-7.2.3-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.2/aarch64/CardinalOptimizer-7.2.2-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.3/aarch64/CardinalOptimizer-7.2.3-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.3
+==========
+Added a feature in MIP presolver.
+Added a floating license support for COPT cluster deployment.
+
 COPT 7.2.2
 ==========
 Fixed an issue regarding MIP cuts performance.
