@@ -30,29 +30,45 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.3.
+The latest COPT 7.2 patch release is COPT 7.2.4.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.3/win64/CardinalOptimizer-7.2.3-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.3/win64/CardinalOptimizer-7.2.3-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.4/win64/CardinalOptimizer-7.2.4-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.4/win64/CardinalOptimizer-7.2.4-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.3/osx64/CardinalOptimizer-7.2.3-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.3/osx64/CardinalOptimizer-7.2.3-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.4/osx64/CardinalOptimizer-7.2.4-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.4/osx64/CardinalOptimizer-7.2.4-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.3/linux64/CardinalOptimizer-7.2.3-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.4/linux64/CardinalOptimizer-7.2.4-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.3/aarch64/CardinalOptimizer-7.2.3-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.4/aarch64/CardinalOptimizer-7.2.4-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.4
+==========
+Added the support for affine cone.
+Added the support for automatic dualized crossover for PDLP.
+Added the support for input data validation.
+Added the support for connecting to multiple COPT cluster servers.
+Added the support for getting and interrupting jobs on COPT cluster side.
+Improved LP folding detection.
+Improved memory management on Linux.
+Fixed an issue in QCQP folding.
+Fixed an issue regarding user cut callback.
+Fixed a performance issue in MIP heuristic.
+Fixed a numerical issue in LP presolver.
+Fixed other bugs and issues.
+Updated documentations and examples.
+
 COPT 7.2.3
 ==========
 Added a feature in MIP presolver.
