@@ -30,7 +30,7 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.4.
+The latest COPT 7.2 patch release is COPT 7.2.5.
 
 Download links for supported platforms are:
 
