@@ -36,23 +36,48 @@ Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.4/win64/CardinalOptimizer-7.2.4-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.4/win64/CardinalOptimizer-7.2.4-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.5/win64/CardinalOptimizer-7.2.5-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.5/win64/CardinalOptimizer-7.2.5-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.4/osx64/CardinalOptimizer-7.2.4-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.4/osx64/CardinalOptimizer-7.2.4-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.5/osx64/CardinalOptimizer-7.2.5-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.5/osx64/CardinalOptimizer-7.2.5-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.4/linux64/CardinalOptimizer-7.2.4-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.5/linux64/CardinalOptimizer-7.2.5-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.4/aarch64/CardinalOptimizer-7.2.4-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.5/aarch64/CardinalOptimizer-7.2.5-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.5
+==========
+Added a preview version of continuous non-convex local optimization solver.
+- For non-convex QP and QCP, please set NonConvex=1 to use.
+- For general non-linear programming, please use C API or coptampl.
+- More modeling support to come.
+Added Python 3.13 support.
+Added NumPy 2.0 support.
+Added C# support for affine cone.
+Added matrix modeling support for FeasRelax.
+Added MIP starting point support in COPT bin format.
+Added missing const qualifiers in C API.
+Fixed a numerical issue regarding ExpCone solver.
+Fixed an issue regarding MIP callback interrupts.
+Fixed an issue regarding MIP parallelization.
+Fixed an issue regarding SDP post-processing.
+Fixed an issue regrading COPT cluster load balance.
+Fixed an issue regarding FeasRelax penalty.
+Fxied an issue regarding coptampl.
+Fixed issues regarding model modifications.
+Improved numerical hard LP handling in MIP solver.
+Fixed other bugs and issues.
+Revised logging.
+Revised documentations.
+
 COPT 7.2.4
 ==========
 Added the support for affine cone.
