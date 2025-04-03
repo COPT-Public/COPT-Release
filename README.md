@@ -30,29 +30,39 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.5.
+The latest COPT 7.2 patch release is COPT 7.2.6.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.5/win64/CardinalOptimizer-7.2.5-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.5/win64/CardinalOptimizer-7.2.5-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.6/win64/CardinalOptimizer-7.2.6-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.6/win64/CardinalOptimizer-7.2.6-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.5/osx64/CardinalOptimizer-7.2.5-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.5/osx64/CardinalOptimizer-7.2.5-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.6/osx64/CardinalOptimizer-7.2.6-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.6/osx64/CardinalOptimizer-7.2.6-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.5/linux64/CardinalOptimizer-7.2.5-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.6/linux64/CardinalOptimizer-7.2.6-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.5/aarch64/CardinalOptimizer-7.2.5-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.6/aarch64/CardinalOptimizer-7.2.6-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.6
+==========
+Added the support for providing initial primal solutions to NLP.
+Fixed an issue regarding the Evaluate method of coptpy expressions.
+Fixed an issue regarding MPS reader.
+Fixed a numerical issue regarding MIP presolver.
+Improved model output handling with missing names.
+Revised the LP logging summary line.
+Updated documentations.
+
 COPT 7.2.5
 ==========
 Added a preview version of continuous non-convex local optimization solver.
