@@ -30,29 +30,40 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.6.
+The latest COPT 7.2 patch release is COPT 7.2.7.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.6/win64/CardinalOptimizer-7.2.6-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.6/win64/CardinalOptimizer-7.2.6-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.7/win64/CardinalOptimizer-7.2.7-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.7/win64/CardinalOptimizer-7.2.7-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.6/osx64/CardinalOptimizer-7.2.6-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.6/osx64/CardinalOptimizer-7.2.6-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.7/osx64/CardinalOptimizer-7.2.7-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.7/osx64/CardinalOptimizer-7.2.7-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.6/linux64/CardinalOptimizer-7.2.6-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.7/linux64/CardinalOptimizer-7.2.7-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.6/aarch64/CardinalOptimizer-7.2.6-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.7/aarch64/CardinalOptimizer-7.2.7-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.7
+==========
+Removed the requirement of setting NonConvex=1 to solve nonconvex QP or QCP.
+Added the support for NLP modelling with C++.
+Fixed an issue regarding solving huge LP instance using barrier method.
+Fixed an issue regarding LP folding.
+Fixed a performance issue in MIP heuristic.
+Fixed a numerical issue in MIP presolver.
+Enabled using GPU-accelerated PDLP for MIP root relaxation.
+Updated documentations and examples.
+
 COPT 7.2.6
 ==========
 Added the support for providing initial primal solutions to NLP.
