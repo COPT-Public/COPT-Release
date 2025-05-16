@@ -53,6 +53,20 @@ Download links for supported platforms are:
 ## Release notes
 
 ```
+COPT 7.2.8
+==========
+Introduced multi-objective support to COPT.
+Added support for NLP modelling with C#, Java and Python.
+Improved performance of running large amount of small jobs in parallel.
+Enabled no_proxy environment variable for connections to COPT floating/cluster servers.
+Fixed an issue regarding MISOCP presolver.
+Fixed an issue regarding NLP solver.
+Fixed an issue regarding indicator.
+Fixed an issue regarding empty symmetric matrix for SDP.
+Fixed an issue in linear system setup for ExpCone solver.
+Fixed integer overflow in Cholesky for large SDP problem.
+Updated COPT user guide for multi-objective and NLP.
+
 COPT 7.2.7
 ==========
 Removed the requirement of setting NonConvex=1 to solve nonconvex QP or QCP.
