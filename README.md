@@ -36,23 +36,43 @@ Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.8/win64/CardinalOptimizer-7.2.8-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.8/win64/CardinalOptimizer-7.2.8-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.9/win64/CardinalOptimizer-7.2.9-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.9/win64/CardinalOptimizer-7.2.9-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.8/osx64/CardinalOptimizer-7.2.8-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.8/osx64/CardinalOptimizer-7.2.8-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.9/osx64/CardinalOptimizer-7.2.9-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.9/osx64/CardinalOptimizer-7.2.9-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.8/linux64/CardinalOptimizer-7.2.8-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.9/linux64/CardinalOptimizer-7.2.9-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.8/aarch64/CardinalOptimizer-7.2.8-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.9/aarch64/CardinalOptimizer-7.2.9-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.9
+==========
+Introduced a preview version of COPT barrier solver with GPU-acceleration.
+Improved handling of column and row bounds with customized infinity.
+Added LP status of reaching iteration limit.
+Added support for multi-objective problem in LP file.
+Added support for reading and writing solution in JSON format.
+Added support for AddCols and AddRows in C++ APIs for advanced usage.
+Added support of evaluating nonlinear expression in C++, Java, C# and Python APIs.
+Revised solving logic for unsupported problems.
+
+Fixed an issue regarding names with spaces in MPS file.
+Fixed an issue regarding indicators in NL file.
+Fixed an issue regarding LP presolve.
+Fixed an issue regarding LP scaling.
+Fixed an issue regarding wrong infeasibility claim.
+Fixed an issue of building expression of nonlinear constraints and objectives in modelling.
+Fixed other bugs and issues.
+Updated documentations.
+
 COPT 7.2.8
 ==========
 Introduced multi-objective support to COPT.
