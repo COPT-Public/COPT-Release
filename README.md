@@ -30,30 +30,50 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.9.
+The latest COPT 7.2 patch release is COPT 7.2.10.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.9/win64/CardinalOptimizer-7.2.9-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.9/win64/CardinalOptimizer-7.2.9-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.10/win64/CardinalOptimizer-7.2.10-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.10/win64/CardinalOptimizer-7.2.10-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.9/osx64/CardinalOptimizer-7.2.9-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.9/osx64/CardinalOptimizer-7.2.9-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.10/osx64/CardinalOptimizer-7.2.10-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.10/osx64/CardinalOptimizer-7.2.10-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.9/linux64/CardinalOptimizer-7.2.9-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.10/linux64/CardinalOptimizer-7.2.10-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.9/aarch64/CardinalOptimizer-7.2.9-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.10/aarch64/CardinalOptimizer-7.2.10-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
-COPT 7.2.9
+COPT 7.2.10
+===========
+Introduced NVIDIA blackwell architecture support on Linux and Windows platforms.
+Introduced feature of sensitivity analysis to LP problems.
+Introduced ExpCone solver with GPU-acceleration.
+Improved performance of ExpCone solver.
+Improved performance of GPU-accelerated PDLP method.
+Added problem statistics for Simplex and PDLP methods.
+Added log level setting for license validation.
+Added public parameters for linearizing indicator and SOS constraints.
+
+Fixed an issue regarding python division for nonlinear expression.
+Fixed an issue regarding matrix modeling using transpose of numpy array.
+Fixed an issue regarding LP solution when status is imprecise.
+Fixed an issue regarding MIP presolve when FeasTol is very small.
+Fixed other bugs and customer issues.
+Updated documentation and examples.
+
+Support for Python 2.7 and 3.6 is now deprecated and will be discontinued in next major release.
+
+COPT 
 ==========
 Introduced a preview version of COPT barrier solver with GPU-acceleration.
 Improved handling of column and row bounds with customized infinity.
