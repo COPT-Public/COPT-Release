@@ -30,29 +30,41 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 7.2 patch release is COPT 7.2.10.
+The latest COPT 7.2 patch release is COPT 7.2.11.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.10/win64/CardinalOptimizer-7.2.10-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.10/win64/CardinalOptimizer-7.2.10-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.11/win64/CardinalOptimizer-7.2.11-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/7.2.11/win64/CardinalOptimizer-7.2.11-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/7.2.10/osx64/CardinalOptimizer-7.2.10-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.10/osx64/CardinalOptimizer-7.2.10-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/7.2.11/osx64/CardinalOptimizer-7.2.11-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.11/osx64/CardinalOptimizer-7.2.11-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.10/linux64/CardinalOptimizer-7.2.10-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.11/linux64/CardinalOptimizer-7.2.11-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.10/aarch64/CardinalOptimizer-7.2.10-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/7.2.11/aarch64/CardinalOptimizer-7.2.11-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 7.2.11
+===========
+Improved memory efficiency in sifting algorithm
+
+Fixed an issue regarding Blas setting
+Fixed an issue regarding ExpCone solver
+Fixed an issue regarding lazy constraints
+Fixed an issue regarding buffer overflow of cluster tool messages
+Updated documentation about NVIDIA blackwell architecture support
+
+Support for Python 2.7 and 3.6 is now deprecated and will be discontinued in next major release.
+
 COPT 7.2.10
 ===========
 Introduced NVIDIA blackwell architecture support on Linux and Windows platforms.
