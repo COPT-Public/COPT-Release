@@ -55,13 +55,13 @@ Download links for supported platforms are:
 ```
 COPT 7.2.11
 ===========
-Improved memory efficiency in sifting algorithm
+Improved memory efficiency in sifting algorithm.
 
-Fixed an issue regarding Blas setting
-Fixed an issue regarding ExpCone solver
-Fixed an issue regarding lazy constraints
-Fixed an issue regarding buffer overflow of cluster tool messages
-Updated documentation about NVIDIA blackwell architecture support
+Fixed an issue regarding Blas setting.
+Fixed an issue regarding ExpCone solver.
+Fixed an issue regarding lazy constraints.
+Fixed an issue regarding buffer overflow of cluster tool messages.
+Updated documentation about NVIDIA blackwell architecture support.
 
 Support for Python 2.7 and 3.6 is now deprecated and will be discontinued in next major release.
 
