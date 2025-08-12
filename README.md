@@ -85,7 +85,7 @@ Updated documentation and examples.
 
 Support for Python 2.7 and 3.6 is now deprecated and will be discontinued in next major release.
 
-COPT 
+COPT 7.2.9
 ==========
 Introduced a preview version of COPT barrier solver with GPU-acceleration.
 Improved handling of column and row bounds with customized infinity.
