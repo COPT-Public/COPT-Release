@@ -29,29 +29,49 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 8.0 patch release is COPT 8.0.1.
+The latest COPT 8.0 patch release is COPT 8.0.2.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.1/win64/CardinalOptimizer-8.0.1-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.1/win64/CardinalOptimizer-8.0.1-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.2/win64/CardinalOptimizer-8.0.2-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.2/win64/CardinalOptimizer-8.0.2-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.1/osx64/CardinalOptimizer-8.0.1-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.1/osx64/CardinalOptimizer-8.0.1-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.2/osx64/CardinalOptimizer-8.0.2-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.2/osx64/CardinalOptimizer-8.0.2-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.1/linux64/CardinalOptimizer-8.0.1-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.2/linux64/CardinalOptimizer-8.0.2-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.1/aarch64/CardinalOptimizer-8.0.1-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.2/aarch64/CardinalOptimizer-8.0.2-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 8.0.2
+==========
+Added CPU affinity and support for binding memory to NUMA nodes on Linux systems.
+Improved barrier solver with GPU-acceleration.
+Improved performance for MIP IIS.
+Improved MIP heuristics and presolve.
+Revised logs when computing farkas or ray.
+
+Added integer parameter MipRepair to set level for repairing MIP solution in case of numerical issues.
+Added integer parameter MipNlpIterLimit to set iteration limit for solving NLP problems within MIP solver.
+Added integer parameter ReqSensitivity to specify whether to compute sensitivity analysis information.
+
+Fixed an issue with SDP solver.
+Fixed an issue related to the username in licensing.
+Fixed an issue with matrix multiplication in the COPT Python API.
+Fixed a remote connection issue affecting certain Linux versions.
+Fixed other bugs and issues.
+
+Updated documentation.
+
 COPT 8.0.1
 ==========
 Added integer parameter PreRootHeurLevel for setting level of pre-root heuristics.
