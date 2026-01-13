@@ -29,29 +29,59 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 8.0 patch release is COPT 8.0.2.
+The latest COPT 8.0 patch release is COPT 8.0.3.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.2/win64/CardinalOptimizer-8.0.2-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.2/win64/CardinalOptimizer-8.0.2-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.3/win64/CardinalOptimizer-8.0.3-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.3/win64/CardinalOptimizer-8.0.3-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.2/osx64/CardinalOptimizer-8.0.2-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.2/osx64/CardinalOptimizer-8.0.2-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.3/osx64/CardinalOptimizer-8.0.3-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.3/osx64/CardinalOptimizer-8.0.3-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.2/linux64/CardinalOptimizer-8.0.2-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.3/linux64/CardinalOptimizer-8.0.3-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.2/aarch64/CardinalOptimizer-8.0.2-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.3/aarch64/CardinalOptimizer-8.0.3-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 8.0.3
+==========
+
+Introduced an NLP callback interface in both C++ and Python to solve NL problems.
+Added integer parameter ConcurrentLpMode to enable concurrent LP methods on GPU.
+Added support for assignment via slicing or views of Python NdArray.
+Added dot product and prod() support to C++, C# and Python NdArray.
+Added OS and CPU information to COPT logs.
+
+Fixed an issue in the dual method of SDP solver.
+Fixed an issue where the PDLP method may stop at 0 iterations.
+Fixed an issue about solving maxmization problem in SDP solver.
+Fixed issues about the starting point and linear system in GPU barrier solver.
+Fixed a bug where Python addConstr methods may fail to run if a previous call resulted in an error.
+Fixed a bug introduced in version 8.0.2, where license error messages are overwritten.
+
+Fixed other bugs and issues.
+Updated documentation.
+
+Breaking Changes:
+Using GPUMode (>0) on a machine without a GPU will now report an error, instead of silently falling back to CPU mode.
+When the integer parameter BarOrder is specified, COPT runs the corresponding algorithm regardless of performance.
+Indexing operator of Python NdArray now return scalar instead of a 0-d array, if resulting array contains only one element.
+Sum() with no arguments in C++, C# and Python NdArray now return scalar, instead of 0-d array. 
+
+Deprecated:
+PuLP is removed from the COPT package, as official support is already available.
+Support for Python 3.7 on PyPI will be discontinued in the next release.
+Note that PyPI is a non-commercial, community-maintained package repository.
+
 COPT 8.0.2
 ==========
 Added CPU affinity and support for binding memory to NUMA nodes on Linux systems.
