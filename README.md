@@ -29,29 +29,52 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 8.0 patch release is COPT 8.0.3.
+The latest COPT 8.0 patch release is COPT 8.0.4.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.3/win64/CardinalOptimizer-8.0.3-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.3/win64/CardinalOptimizer-8.0.3-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.4/win64/CardinalOptimizer-8.0.4-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.4/win64/CardinalOptimizer-8.0.4-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.3/osx64/CardinalOptimizer-8.0.3-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.3/osx64/CardinalOptimizer-8.0.3-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.4/osx64/CardinalOptimizer-8.0.4-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.4/osx64/CardinalOptimizer-8.0.4-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.3/linux64/CardinalOptimizer-8.0.3-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.4/linux64/CardinalOptimizer-8.0.4-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.3/aarch64/CardinalOptimizer-8.0.3-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.4/aarch64/CardinalOptimizer-8.0.4-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 8.0.4
+==========
+
+Introduced new solving status for LP and MIP problems.
+Added error messages to the COPT logs when loading GPU drivers.
+Added new attributes for the numerical ranges of LP and QP problems.
+Added double parameter QMatrixTol for Q matrix coefficient tolerance.
+Improved logs for the COPT-Pyomo interface.
+Improved numerical stability for QP problems.
+Improved performance for computing dual farkas and rays.
+
+Fixed a numerical issue in an LP presolve routine.
+Fixed a threading issue related to callbacks in the compute cluster service.
+Fixed an issue when reading fixed binaries in an MPS file.
+Fixed an issue in sensitivity analysis for LP problems with no explicit constraints.
+Fixed issues in MIP presolve routines.
+Fixed public C and Python examples.
+Fixed some issues when solving on the compute cluster service.
+
+Updated documentation.
+
+Support for Python 3.7 on PyPI is officially discontinued.
+
 COPT 8.0.3
 ==========
 
