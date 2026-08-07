@@ -29,29 +29,60 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 8.0 patch release is COPT 8.0.5.
+The latest COPT 8.0 patch release is COPT 8.0.6.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.5/win64/CardinalOptimizer-8.0.5-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.5/win64/CardinalOptimizer-8.0.5-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.6/win64/CardinalOptimizer-8.0.6-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.6/win64/CardinalOptimizer-8.0.6-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.5/osx64/CardinalOptimizer-8.0.5-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.5/osx64/CardinalOptimizer-8.0.5-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.6/osx64/CardinalOptimizer-8.0.6-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.6/osx64/CardinalOptimizer-8.0.6-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.5/linux64/CardinalOptimizer-8.0.5-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.6/linux64/CardinalOptimizer-8.0.6-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.5/aarch64/CardinalOptimizer-8.0.5-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.6/aarch64/CardinalOptimizer-8.0.6-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 8.0.6
+==========
+
+Introduced memory management policies for the COPT compute cluster server.
+Added support for NVIDIA CUDA 13.
+Added support for Python 3.14 and free-threaded Python on PyPI.
+Added support for writing multi-objective problems to NL files.
+Added public double attributes for the numerical ranges of the problem.
+Added public double attribute MemPeak for peak memory usage during solving.
+Added public double parameter MemLimit for setting a soft memory limit during solving.
+Added public integer parameter WriteDualProb for writing the dual problem (LP only for now).
+Relaxed the restrictions on accessing solution information after model modifications.
+Removed the NumPy dependency from the Python matrix API.
+
+Improved performance of the GPU barrier solver.
+Improved performance of advanced simplex routines.
+Improved load balancing for concurrent jobs on the compute cluster server.
+Improved keep-alive mechanism for connections to the compute cluster server during modeling.
+Improved robustness when sending the problem to the compute cluster server, with automatic retry of missing data chunks.
+
+Fixed an issue where data references could be lost in the Python matrix API.
+Fixed an issue related to indicator constraints in the LP writer.
+Fixed an issue with BLAS on arm64 platforms.
+
+Fixed other bugs and issues.
+Updated documentation.
+
+Deprecated:
+Support for Python 3.8 on PyPI will be discontinued in the next release.
+Note that PyPI is a non-commercial, community-maintained package repository.
+
 COPT 8.0.5
 ==========
 
