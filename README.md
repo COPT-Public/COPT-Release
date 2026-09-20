@@ -29,29 +29,55 @@ The corresponding BiBTeX citation is:
 }
 ```
 ## Download links
-The latest COPT 8.0 patch release is COPT 8.0.6.
+The latest COPT 8.0 patch release is COPT 8.0.7.
 
 Download links for supported platforms are:
 
 **Windows**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.6/win64/CardinalOptimizer-8.0.6-win64-installer.zip),
-  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.6/win64/CardinalOptimizer-8.0.6-win64.zip) too.
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.7/win64/CardinalOptimizer-8.0.7-win64-installer.zip),
+  but you can use the [zip package](https://pub.shanshu.ai/download/copt/8.0.7/win64/CardinalOptimizer-8.0.7-win64.zip) too.
 
 **macOS (Universal)**<br>
   We recommend
-  the [Installer](https://pub.shanshu.ai/download/copt/8.0.6/osx64/CardinalOptimizer-8.0.6-universal_mac.dmg),
-  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.6/osx64/CardinalOptimizer-8.0.6-universal_mac.tar.gz) too.<br>
+  the [Installer](https://pub.shanshu.ai/download/copt/8.0.7/osx64/CardinalOptimizer-8.0.7-universal_mac.dmg),
+  but you can use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.7/osx64/CardinalOptimizer-8.0.7-universal_mac.tar.gz) too.<br>
 
 **Linux**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.6/linux64/CardinalOptimizer-8.0.6-lnx64.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.7/linux64/CardinalOptimizer-8.0.7-lnx64.tar.gz)
 
 **Linux (ARM64)**<br>
-  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.6/aarch64/CardinalOptimizer-8.0.6-aarch64_lnx.tar.gz)
+  Please use the [tar.gz package](https://pub.shanshu.ai/download/copt/8.0.7/aarch64/CardinalOptimizer-8.0.7-aarch64_lnx.tar.gz)
 
 ## Release notes
 
 ```
+COPT 8.0.7
+==========
+
+Added a MipStartMode setting to accept all MIP start values, intended for hierarchical multi-objective optimization.
+
+Improved no_proxy handling in the remote services.
+Improved stability and thread safety for concurrent remote solving.
+Improved load balancing in the compute cluster server, including resource monitoring inside containers.
+
+Fixed a race condition during hardware detection that could cause license validation to fail.
+Fixed a memory issue with single-element NdArray objects.
+Fixed a crash in the Java API when GC reclaimed a previously solved model while another solve was in progress.
+Fixed an issue when NumPy arrays are used with the coptpy matrix API.
+Fixed issues in the C# and Java APIs when setting a custom callback.
+
+Fixed multiple issues in MIP presolver.
+Fixed handling of MIP starting values when the model is modified before the solve.
+Fixed a crash when a callback interrupted the solve after presolve had fully solved the problem.
+Fixed an issue where the MIP solver could fail with a 'cannot change instruction set' error.
+Fixed an issue when a callback interrupted the solve during MIP start processing.
+Fixed an issue where getting IIS data could fail silently.
+Fixed an issue in QP solver.
+
+Fixed other bugs and issues.
+Updated documentation.
+
 COPT 8.0.6
 ==========
 
